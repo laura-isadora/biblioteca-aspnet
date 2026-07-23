@@ -12,7 +12,7 @@
             padding: 60px 0
         }
 
-        .card {
+        .botao-card {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -28,8 +28,14 @@
     <h1>Seja bem vindo!</h1>
     
     <div ID="cards">
-        <div class="card">Acervo</div>
-        <div class="card">Cadastros</div>
+        <a class="botao-card">
+            <div class="card">Acervo</div>
+        </a>
+        
+        <a class="botao-card">
+            <div class="card">Cadastros</div>
+        </a>
+
     </div>
 
 

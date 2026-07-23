@@ -15,17 +15,5 @@ namespace SistemaBiblioteca
         {
 
         }
-
-        protected void BtnVerLivros_Click(object sender, EventArgs e)
-        {
-            string lista = "";
-
-            foreach (Livro livro in FakeDataBase.livros)
-            {
-                lista += livro.Nome + "<br>";
-            }
-
-            lblMensagem.Text = lista;
-        }
     }
 }
