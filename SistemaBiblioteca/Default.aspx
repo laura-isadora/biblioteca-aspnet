@@ -28,7 +28,7 @@
     <h1>Seja bem vindo!</h1>
     
     <div ID="cards">
-        <a class="botao-card">
+        <a class="botao-card" href="Livros.aspx">
             <div class="card">Acervo</div>
         </a>
         
