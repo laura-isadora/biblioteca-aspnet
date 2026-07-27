@@ -118,8 +118,11 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\style.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
+    <Content Include="fotos\cadastros.jpg" />
+    <Content Include="fotos\livros.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Livros.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
