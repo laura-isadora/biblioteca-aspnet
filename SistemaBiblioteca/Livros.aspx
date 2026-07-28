@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Livros.aspx.cs" Inherits="SistemaBiblioteca.Livros" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Livros.aspx.cs" Inherits="SistemaBiblioteca.Livros" MasterPageFile="~/Site.Master" %>
 
 
 

@@ -119,6 +119,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\style.css" />
+    <Content Include="Controle.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fotos\cadastros.jpg" />
@@ -202,6 +203,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controle.aspx.cs">
+      <DependentUpon>Controle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controle.aspx.designer.cs">
+      <DependentUpon>Controle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Data\FakeDataBase.cs" />
     <Compile Include="Default.aspx.cs">
