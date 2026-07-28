@@ -9,13 +9,9 @@
     <h1>Seja bem vindo!</h1>
     
     <div ID="cards">
-        <a class="botao-card bg-acervo" href="Livros.aspx">
-            <div class="card">Acervo</div>
-        </a>
+        <a class="botao-card bg-acervo" href="Livros.aspx">Acervo</a>
         
-        <a class="botao-card bg-cadastros" href="Livros.aspx">
-            <div class="card">Cadastros</div>
-        </a>
+        <a class="botao-card bg-cadastros">Cadastros</a>
 
     </div>
 

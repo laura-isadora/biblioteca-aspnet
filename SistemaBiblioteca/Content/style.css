@@ -14,20 +14,26 @@
     border: 1px solid #ccc;
     background-color: #f9f9f9;
     text-decoration: none;
-    color: #333;
-    font-size:1.5rem;
+    color: white;
+    font-size: 1.5rem;
     font-weight: bold;
     border-radius: 30px; /* arredonda a borda do card*/
+    transition: 0.5s; /* meio segundo de transição */
 }
 
 .botao-card:hover{
     transform: scale(1.02); /* Aumenta o tamanho do card em 2% */
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* cria uma sombra */
-    transition: 0.5s; /* meio segundo de transição */
+    color: white !important;
 }
 
 .bg-acervo {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url(../fotos/livros.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../fotos/livros.jpg);
+    
+}
+
+.bg-cadastros {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../fotos/cadastros.jpg);
 }
 
 h1 {
