@@ -13,5 +13,15 @@ namespace SistemaBiblioteca
         {
 
         }
+
+        protected void btnConsultas_Click(object sender, EventArgs e)
+        {
+            mvControle.ActiveViewIndex = 0;
+        }
+
+        protected void btnCadastros_Click(object sender, EventArgs e)
+        {
+            mvControle.ActiveViewIndex = 1;
+        }
     }
 }

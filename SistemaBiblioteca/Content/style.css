@@ -39,3 +39,29 @@
 h1 {
     padding: 20px;
 }
+
+#btnControles {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 0;
+}
+
+/* estilização das abas */
+.aba-botao {
+    color: #333;
+    background-color: #e0e0e0;
+    border: 1px solid #b0b0b0;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    border-top-left-radius: 6px;/* arrendonda só a parte de cima*/
+    border-top-right-radius: 6px;
+    border-bottom: none; /* Tira a borda de baixo para emendar direto */
+
+    transition: background 0.2s ease;
+}
+
+.aba-botao:hover {
+    background-color: #d5d5d5;
+}
+

@@ -11,7 +11,7 @@
     <div ID="cards">
         <a class="botao-card bg-acervo" href="Livros.aspx">Acervo</a>
         
-        <a class="botao-card bg-cadastros">Cadastros</a>
+        <a class="botao-card bg-cadastros" href="Controle.aspx">Controles</a>
 
     </div>
 

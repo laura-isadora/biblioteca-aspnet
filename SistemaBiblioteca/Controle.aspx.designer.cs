@@ -15,13 +15,31 @@ namespace SistemaBiblioteca
     {
 
         /// <summary>
-        /// mvControles control.
+        /// btnConsultas control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.MultiView mvControles;
+        protected global::System.Web.UI.WebControls.Button btnConsultas;
+
+        /// <summary>
+        /// btnCadastros control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCadastros;
+
+        /// <summary>
+        /// mvControle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.MultiView mvControle;
 
         /// <summary>
         /// Consultas control.
