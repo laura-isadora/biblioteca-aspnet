@@ -23,5 +23,10 @@ namespace SistemaBiblioteca
         {
             mvControle.ActiveViewIndex = 1;
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

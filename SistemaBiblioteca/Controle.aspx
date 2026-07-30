@@ -16,10 +16,10 @@
             
             <div class="caixaBtn">
                 <div class="buttons">
-                    <asp:Button ID="Button1" runat="server" Text="Cadastros de Usuário"/>
+                    <asp:Button ID="Button1" runat="server" Text="Listagem de Usuários" OnClick="Button1_Click"/>
                 </div>
                 <div class="buttons">
-                    <asp:Button ID="Button2" runat="server" Text="Cadastros de Livros"/>
+                    <asp:Button ID="Button2" runat="server" Text="Listagem de Livros"/>
 
                 </div>
             </div>
