@@ -13,19 +13,29 @@
     <asp:MultiView ID="mvControle" runat="server" ActiveViewIndex="0">
         <!-- conteúdo de consutlas -->
         <asp:View ID="Consultas" runat="server">
-            <h3>Área de Consultas</h3>
-            <div class="buttons">
-                <button>Empréstimos</button>
-                <button>Cadastros de Usuários</button>
+            
+            <div class="caixaBtn">
+                <div class="buttons">
+                    <asp:Button ID="Button1" runat="server" Text="Cadastros de Usuário"/>
+                </div>
+                <div class="buttons">
+                    <asp:Button ID="Button2" runat="server" Text="Cadastros de Livros"/>
+
+                </div>
             </div>
         </asp:View>
 
         <!-- conteúdo de cadastros -->
         <asp:View ID="Cadastros" runat="server">
-            <h3>Área de cadastros</h3>
-            <div class="buttons">
-                <button>Cadastrar Usuário</button>
-                <button>Cadastrar Livro</button>
+            
+            <div class="caixaBtn">
+                <div class="buttons">
+                    <asp:Button ID="Button3" runat="server" Text="Cadastrar Usuário"/>
+                </div>
+                <div class="buttons">
+                    <asp:Button ID="Button4" runat="server" Text="Cadastrar Livro"/>
+                </div>
+                
             </div>
         </asp:View>
     </asp:MultiView>

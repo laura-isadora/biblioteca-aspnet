@@ -65,3 +65,22 @@ h1 {
     background-color: #d5d5d5;
 }
 
+.caixaBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 70vh;
+    border: 1px solid #b0b0b0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top: none;
+    background-color: #e0e0e0;
+}
+
+.buttons {
+    display: flex;
+    margin: 50px;
+    padding: 5px;
+}
+
