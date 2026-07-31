@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaBiblioteca.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,10 @@ namespace SistemaBiblioteca
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                
+            }
         }
 
         protected void btnConsultas_Click(object sender, EventArgs e)
@@ -24,9 +28,17 @@ namespace SistemaBiblioteca
             mvControle.ActiveViewIndex = 1;
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void Usuarios_Click(object sender, EventArgs e)
         {
+            mvControle.ActiveViewIndex = 2;
 
+            CarregarUsuarios();
+        }
+
+        private void CarregarUsuarios()
+        {
+            gvUsuarios.DataSource = FakeDataBase.pessoas;
+            gvUsuarios.DataBind();
         }
     }
 }

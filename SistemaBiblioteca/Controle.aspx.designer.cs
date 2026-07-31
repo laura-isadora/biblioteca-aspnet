@@ -51,22 +51,22 @@ namespace SistemaBiblioteca
         protected global::System.Web.UI.WebControls.View Consultas;
 
         /// <summary>
-        /// Button1 control.
+        /// Usuarios control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button Usuarios;
 
         /// <summary>
-        /// Button2 control.
+        /// Livros control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button Livros;
 
         /// <summary>
         /// Cadastros control.
@@ -94,5 +94,23 @@ namespace SistemaBiblioteca
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button4;
+
+        /// <summary>
+        /// UserList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.View UserList;
+
+        /// <summary>
+        /// gvUsuarios control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView gvUsuarios;
     }
 }
