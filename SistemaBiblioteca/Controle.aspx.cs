@@ -30,13 +30,7 @@ namespace SistemaBiblioteca
 
         protected void Usuarios_Click(object sender, EventArgs e)
         {
-            mvControle.ActiveViewIndex = 2;
-
-            CarregarUsuarios();
-        }
-
-        private void CarregarUsuarios()
-        {
+            gvUsuarios.Visible = true;
             gvUsuarios.DataSource = FakeDataBase.pessoas;
             gvUsuarios.DataBind();
         }

@@ -11,17 +11,27 @@
     </div>
 
     <asp:MultiView ID="mvControle" runat="server" ActiveViewIndex="0">
-        <!-- conteúdo de consutlas -->
+        <!-- conteúdo de consultas -->
         <asp:View ID="Consultas" runat="server">
             
             <div class="caixaBtn">
                 <div class="buttons">
-                    <asp:Button ID="Usuarios" runat="server" Text="Listagem de Usuários" OnClick="Usuarios_Click"/>
+                    <asp:Button ID="Usuarios" runat="server" Text="Listagem de Usuários" OnClick="Usuarios_Click" />
                 </div>
                 <div class="buttons">
-                    <asp:Button ID="Livros" runat="server" Text="Listagem de Livros"/>
+                    <asp:Button ID="Livros" runat="server" Text="Listagem de Livros" />
 
                 </div>
+
+                <!-- botões de consultas -->
+                <!-- Listagem de Usuários -->
+                <asp:GridView ID="gvUsuarios" runat="server" AutoGenerateColumns="False" CssClass="tabela-dados" Visible="false">
+                    <Columns>
+                        <asp:BoundField DataField="Id" HeaderText="ID" />
+                        <asp:BoundField DataField="Nome" HeaderText="Nome" />
+                    </Columns>
+                </asp:GridView>
+
             </div>
         </asp:View>
 
@@ -39,19 +49,8 @@
             </div>
         </asp:View>
 
-        <!-- botões de consultas -->
-        <asp:View ID="UserList" runat="server">
-            <div class="caixaBtn">
-                <h3>Listagem de Usuários</h3>
-
-                <asp:GridView ID="gvUsuarios" runat="server" AutoGenerateColumns="False" CssClass="tabela-dados">
-                    <Columns>
-                        <asp:BoundField DataField="Id" HeaderText="ID" />
-                        <asp:BoundField DataField="Nome" HeaderText="Nome" />
-                    </Columns>
-                </asp:GridView>
-            </div>
-        </asp:View>
+        
+           
     </asp:MultiView>
 
 </asp:Content>
