@@ -19,18 +19,29 @@
                     <asp:Button ID="Usuarios" runat="server" Text="Listagem de Usuários" OnClick="Usuarios_Click" />
                 </div>
                 <div class="buttons">
-                    <asp:Button ID="Livros" runat="server" Text="Listagem de Livros" />
+                    <asp:Button ID="Livros" runat="server" Text="Listagem de Livros" OnClick="Livros_Click"/>
 
                 </div>
 
                 <!-- botões de consultas -->
                 <!-- Listagem de Usuários -->
-                <asp:GridView ID="gvUsuarios" runat="server" AutoGenerateColumns="False" CssClass="tabela-dados" Visible="false">
-                    <Columns>
-                        <asp:BoundField DataField="Id" HeaderText="ID" />
-                        <asp:BoundField DataField="Nome" HeaderText="Nome" />
-                    </Columns>
-                </asp:GridView>
+                <div class="tabela-scroll">
+                    <asp:GridView ID="gvUsuarios" runat="server" AutoGenerateColumns="False" CssClass="tabela-dados" Visible="false">
+                        <Columns>
+                            <asp:BoundField DataField="Id" HeaderText="ID" />
+                            <asp:BoundField DataField="Nome" HeaderText="Nome" />
+                        </Columns>
+                    </asp:GridView>
+
+                    <!-- Listagem de Livros -->
+                    <asp:GridView ID="gvLivros" runat="server" AutoGenerateColumns="False" CssClass="tabela-dados" Visible="false">
+                        <Columns>
+                            <asp:BoundField DataField="Id" HeaderText="ID" />
+                            <asp:BoundField DataField="Nome" HeaderText="Nome" />
+                            <asp:BoundField DataField="Autor" HeaderText="Autor" />
+                        </Columns>
+                    </asp:GridView>
+                </div>
 
             </div>
         </asp:View>

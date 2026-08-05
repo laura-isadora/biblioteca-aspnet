@@ -84,3 +84,10 @@ h1 {
     padding: 5px;
 }
 
+.tabela-scroll{
+    max-height: 400px;
+    overflow-y: auto;
+    margin: 20px auto;
+    width: 60%;
+}
+

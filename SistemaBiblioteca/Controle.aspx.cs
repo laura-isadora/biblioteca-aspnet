@@ -30,9 +30,22 @@ namespace SistemaBiblioteca
 
         protected void Usuarios_Click(object sender, EventArgs e)
         {
-            gvUsuarios.Visible = true;
             gvUsuarios.DataSource = FakeDataBase.pessoas;
             gvUsuarios.DataBind();
+            MostrarApenas(gvUsuarios);
+        }
+
+        protected void Livros_Click(object sender, EventArgs e)
+        {
+            gvLivros.DataSource = FakeDataBase.livros;
+            gvLivros.DataBind();
+            MostrarApenas(gvLivros);
+        }
+
+        protected void MostrarApenas(GridView GridParaMostrar)
+        {
+            gvUsuarios.Visible = (GridParaMostrar == gvUsuarios);
+            gvLivros.Visible = (GridParaMostrar == gvLivros);
         }
     }
 }
